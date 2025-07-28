@@ -30,9 +30,9 @@ O Job Finder é uma ferramenta web simples e eficiente que permite aos usuários
 2. Preencha os campos de acordo com sua busca:
 
    * **Cargo**: Digite a posição desejada (ex: "Desenvolvedor Frontend")
-   * **Senioridade**: Selecione o nível de experiência
-   * **Modalidade**: Escolha o formato de trabalho
-   * **Data do anúncio**: Filtre por recência da publicação
+   * **Senioridade**: Selecione o nível de experiência (Todas, estágio, júnior, pleno, senior)
+   * **Modalidade**: Escolha o formato de trabalho (todas, híbrido, remoto, presencial)
+   * **Data do anúncio**: Filtre por tempo que a publicação está no ar (qualquer data, última hora, 24 horas, última semana)
 
 3. Clique em "Buscar Vaga"
 
@@ -71,7 +71,9 @@ Não há necessidade de instalação. Simplesmente:
 git clone https://github.com/rgiovann/jobfinder.git
 ```
 
-2. Abra o arquivo `index.html` em qualquer navegador moderno
+2. Abra o arquivo `jobfinder.html` em qualquer navegador moderno
+
+**Nota:** Para quem não tem familiaridade com o github, basta clicar no arquivo jobfinder.html, note então que você irá visualizar no canto superior direito um ícone de fazer download do arquivo (se você ainda não conseguir identificar o ícone, passe o mouse sobre eles e perceba que um dos ícones vai aparecer um "tooltip" com o texto "Download raw file". Salve o arquivo no seu computador e clique no mesmo que o browser irá automaticamente abrir a página.
 
 ## Compatibilidade
 
