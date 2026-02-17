@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Finder</title>
+
+<style>
+body {
+    background-color:#1e293b;
+    color:white;
+    font-family:monospace;
+}
+
+.container {
+    max-width:400px;
+    margin:80px auto;
+    background-color:#2b7986;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+}
+
+input {
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    border-radius:6px;
+    border:none;
+}
+
+button {
+    padding:20px 40px;
+    font-size:16px;
+    background:#0f387a;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    width:100%;
+}
+
+button:hover {
+    background:#0a1327;
+    font-weight:bold;
+}
+
+.note {
+    font-size:11px;
+    margin-top:10px;
+    opacity:0.8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Job Finder</h2>
+
+    <input id="hashtags" type="text"
+        value="java backend hiring vagas"
+        placeholder="hashtags separadas por espaço">
+
+    <button id="buscar">Procurar vagas</button>
+
+    <div class="note">
+        Digite apenas as palavras. O símbolo # é adicionado automaticamente.
+    </div>
+</div>
+
+<script>
+document.getElementById('buscar').addEventListener('click', function () {
+
+    const raw = document.getElementById('hashtags').value.trim();
+
+    const tags = raw
+        .split(/\s+/)
+        .filter(Boolean)
+        .map(tag => '#' + tag);
+
+    const keywords = tags.join(' ');
+
+    const params = new URLSearchParams();
+    params.set('keywords', keywords);
+
+    const url =
+        `https://www.linkedin.com/search/results/content/?${params.toString()}&sortBy="date_posted"`;
+
+    window.open(url, '_blank');
+});
+</script>
+
+</body>
+</html>
