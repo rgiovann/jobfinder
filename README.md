@@ -86,6 +86,10 @@ git clone https://github.com/rgiovann/jobfinder.git
 
 O LinkedIn pode ignorar parcialmente filtros com `NOT` no campo de busca. Recomenda-se revisar os resultados manualmente para garantir a precisão das vagas encontradas.
 
+## Nota 
+
+Existe um segundo html, dedicado a procurar vagas nas PUBLICAÇÕES e não nas VAGAS, pois são oportunidades com menos visibilidade e portanto menos concorrência, apenas entre com as hashtags.
+
 ## Autor
 
 **Giovanni L. Rozza**
