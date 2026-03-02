@@ -25,7 +25,7 @@ O Job Finder é uma ferramenta web simples e eficiente que permite aos usuários
 
 ## Como Usar
 
-1. Abra o arquivo `jobfinder.html` em seu navegador
+1. Abra o arquivo `index.html` em seu navegador
 
 2. Preencha os campos de acordo com sua busca:
 
@@ -57,7 +57,7 @@ A aplicação converte os filtros selecionados nos parâmetros corretos da API d
 ```
 jobfinder/
 │
-├── jobfinder.html      # Arquivo principal da aplicação
+├── index.html      # Arquivo principal da aplicação
 ├── README.md           # Documentação do projeto
 ```
 
@@ -71,9 +71,9 @@ Não há necessidade de instalação. Simplesmente:
 git clone https://github.com/rgiovann/jobfinder.git
 ```
 
-2. Abra o arquivo `jobfinder.html` em qualquer navegador moderno
+2. Abra o arquivo `index.html` em qualquer navegador moderno
 
-**Nota:** Para quem não tem familiaridade com o github, basta clicar no arquivo jobfinder.html, note então que você irá visualizar no canto superior direito um ícone de fazer download do arquivo. Se você ainda não conseguir identificar o ícone, passe o mouse sobre eles e perceba que em um dos ícones vai aparecer um "tooltip" com o texto "Download raw file". Salve o arquivo no seu computador e clique no mesmo que o browser irá automaticamente abrir a página.
+**Nota:** Para quem não tem familiaridade com o github, basta clicar no arquivo index.html, note então que você irá visualizar no canto superior direito um ícone de fazer download do arquivo. Se você ainda não conseguir identificar o ícone, passe o mouse sobre eles e perceba que em um dos ícones vai aparecer um "tooltip" com o texto "Download raw file". Salve o arquivo no seu computador e clique no mesmo que o browser irá automaticamente abrir a página.
 
 ## Compatibilidade
 
